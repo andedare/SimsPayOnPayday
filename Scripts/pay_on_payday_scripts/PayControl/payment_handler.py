@@ -77,6 +77,6 @@ class PaymentHandler:
             if sim_paydayinfo is not None:
                 # we mod 6 as we pay on Friday, so we don't care if we never care if we haven't paid Saturday's
                 if len(sim_paydayinfo.weekday_payments.keys()) > 0 and\
-                        (max(map(int, sim_paydayinfo.weekday_payments.keys())) % 6) > current_day:
+                        (max(map(int, sim_paydayinfo.weekday_payments.keys())) % 5) > current_day:
                     return True
         return False
