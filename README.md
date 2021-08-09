@@ -1,7 +1,10 @@
 # Career Pay on Payday
 
-This mod stops households from immediately receiving salary each day. Instead, pay is deferred to next Friday household
-is active.
+Actions:
+* This mod stops households from immediately receiving salary each day. Instead, pay is deferred to next Friday
+  household is active.
+* When loading into a household, check to see if any members have salary payments from a previous pay period (simply 
+  check if any days in storage greater than current day, ignoring days greater than payday).
 
 This repository requires [Sims 4 Community Library](https://github.com/ColonolNutty/Sims4CommunityLibrary) API to 
 compile. Instructions can be found in `Libraries/S4CL`.
