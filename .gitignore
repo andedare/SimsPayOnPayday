@@ -3,6 +3,13 @@
 .idea/tasks.xml
 .idea/dictionaries
 .idea/inspectionProfiles
+.idea/codeStyles
+
+# Libraries
+Libraries/S4CL/sims4communitylib
+
+# vscode Project
+.vscode
 
 # EA Scripts
 EA/base
@@ -36,6 +43,8 @@ custom_scripts_for_decompile/*.pyo
 custom_scripts_for_decompile/**/*.pyc
 custom_scripts_for_decompile/**/*.pyo
 custom_scripts_for_decompile/**/*.py
+venv
+venv37
 
 # Release
 **/*.7z

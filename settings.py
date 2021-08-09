@@ -14,7 +14,7 @@ creator_name = ''
 # 3. It will decompile the EA scripts and put them inside of the folder: <Project>/EA/...
 # 4. Inside of the <Project>/EA folder, you should see four folders (base, core, generated, simulation)
 # 5. Highlight all four of those folders and right click them. Then do Mark Directory as... Sources Root
-should_decompile_ea_scripts: bool = False
+should_decompile_ea_scripts: bool = True
 
 # If you want to decompile scripts from another authors mod
 # 1. Create a folder in your project with the name decompiled. i.e. <Project>/custom_scripts_for_decompile
